@@ -92,7 +92,7 @@ class GenerateVclCommand extends Command
     protected function configure()
     {
         $this->setName('varnish:vcl:generate')
-            ->setDescription('Generates Varnish VCL and echos it to the command line')
+            ->setDescription('Generates Varnish VCL and echoes it to the command line')
             ->setDefinition($this->getOptionList());
     }
 
